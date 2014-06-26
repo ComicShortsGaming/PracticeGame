@@ -20,7 +20,7 @@ if (place_free(x,y+1))                          //Checks if the player is collid
      {
         sprite_index=WizJump_Right;
      }
-    if (keyboard_check_released(ord("Z")))
+    if (keyboard_check_released(ord("Z")))   //Prevents player from constantly jumping by holding "jump" button.
     {
         global.Jumped=0;
     }
