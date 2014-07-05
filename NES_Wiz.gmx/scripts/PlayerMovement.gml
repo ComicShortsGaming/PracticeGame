@@ -3,7 +3,6 @@ argument1 = 270  //Gravity direction angle. 270 is straight down, 90 straight up
 argument2 = .8  //Gravity exerted on the player. Higher number, shorter jump
 argument3 = 12  //Fall Speed
 argument4 = 0
-//COMMENT! FUCK YOU! YOU A BITCH ASS BITCH! END COMMENT.
 //BREAK//
 if (vspeed>argument3)   //If the fall speed exceeds the number set by "argument3" it sets it back to it immediately.
 {
