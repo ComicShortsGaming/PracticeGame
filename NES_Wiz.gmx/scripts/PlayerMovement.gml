@@ -73,6 +73,19 @@ if (keyboard_check(vk_left) && place_free(x-argument0,y) && place_free(x-argumen
      sprite_index=WizLeft  
     }
 }
+
+
+
+//BREAK//                                                                   //Experimenting with ladder climbing.
+
+if collision_point(x,y, ClimbMe, false, false) && keyboard_check(vk_up)
+{
+    motion_set(270,-10)                                                             //So far, this KIND of works, but it acts more like a ladder-length jump than actual climbing.
+}
+
+
+
+
 //BREAK//
 if (keyboard_check(vk_right) && place_free(x+argument0,y) && place_free(x+argument0,y-argument0))
 {

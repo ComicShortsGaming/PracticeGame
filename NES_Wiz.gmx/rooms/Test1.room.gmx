@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="Wiz" x="96" y="192" name="inst_D4AC93C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Doorway" x="608" y="192" name="inst_4C3430B8" locked="0" code="target_x = 176;&#xA;target_y = 240;&#xA;target_r = House1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Doorway" x="608" y="192" name="inst_4C3430B8" locked="0" code="target_x = 64;&#xA;target_y = 64;&#xA;target_r = House1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="736" y="208" name="inst_7AB4DDAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="720" y="208" name="inst_7052EBD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="704" y="208" name="inst_F945BEAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -100,7 +100,7 @@
     <instance objName="SolidBox" x="608" y="144" name="inst_F2174375" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="576" y="144" name="inst_C1FD9D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="560" y="144" name="inst_C9C62FE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Doorway" x="400" y="192" name="Cave1_Entrance" locked="0" code="target_x = 48;&#xA;target_y = 224;&#xA;target_r = Cave1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Doorway" x="400" y="192" name="Cave1_Entrance" locked="0" code="target_x = 48;&#xA;target_y = 224;&#xA;target_r = Cave1;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="752" y="208" name="inst_5F5F05D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="768" y="208" name="inst_8BFB0139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="784" y="208" name="inst_C3CEFE31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -411,12 +411,19 @@
     <instance objName="SolidBox" x="176" y="576" name="inst_10C3AC1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Death" x="2112" y="704" name="inst_DBF96ACA" locked="0" code="target_x = 2272;&#xA;target_y = 160;&#xA;" scaleX="9" scaleY="2.06666660308838" colour="4294967295" rotation="0"/>
     <instance objName="Death" x="-1888" y="832" name="inst_F1D6663F" locked="0" code="target_x = 96;&#xA;target_y = 192;&#xA;" scaleX="443" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="192" name="inst_33CCF921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="176" name="inst_E08A7B94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="144" name="inst_117A6712" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="160" name="inst_4516474D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="128" name="inst_EAD77648" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="112" name="inst_8FE33CB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="352" y="96" name="inst_B6FAE1C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spikes_obj" x="1712" y="304" name="inst_8D39D4D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tiles" x="1696" y="272" w="16" h="16" xo="69" yo="35" id="10008857" name="inst_98AB1941" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tiles" x="1712" y="272" w="16" h="16" xo="69" yo="35" id="10008858" name="inst_B781295D" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tiles" x="1744" y="272" w="16" h="16" xo="69" yo="35" id="10008858" name="inst_B781295D" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="1728" y="272" w="16" h="16" xo="69" yo="35" id="10008859" name="inst_910E471C" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tiles" x="1744" y="272" w="16" h="16" xo="69" yo="35" id="10008860" name="inst_3A50FF50" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="1760" y="272" w="16" h="16" xo="69" yo="35" id="10008861" name="inst_0F1A67FE" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="1776" y="272" w="16" h="16" xo="69" yo="35" id="10008862" name="inst_57EC5D4E" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="1776" y="288" w="16" h="16" xo="69" yo="35" id="10008863" name="inst_D387ECB1" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1679,6 +1686,7 @@
     <tile bgName="Tiles" x="1344" y="160" w="16" h="16" xo="69" yo="1" id="10010675" name="inst_4EAD4E31" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="1344" y="144" w="16" h="16" xo="69" yo="18" id="10010676" name="inst_98B99A78" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="1328" y="96" w="16" h="16" xo="86" yo="18" id="10010678" name="inst_509AF6D1" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tiles" x="1712" y="272" w="16" h="16" xo="69" yo="35" id="10010850" name="inst_C0D0FA63" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="64" y="224" w="16" h="16" xo="18" yo="18" id="10000000" name="inst_DBD74D8E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="64" y="256" w="16" h="16" xo="18" yo="18" id="10000001" name="inst_8AB80C34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tiles" x="64" y="240" w="16" h="16" xo="18" yo="18" id="10000002" name="inst_88111057" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

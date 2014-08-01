@@ -205,6 +205,17 @@
     <instance objName="SolidBox" x="336" y="272" name="inst_D442ECA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="240" y="80" name="inst_6B50537D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="432" y="160" name="inst_AAEAC495" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="320" y="272" name="inst_1588AAB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="320" y="288" name="inst_02C4CF0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="416" y="224" name="inst_9600FE03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="416" y="208" name="inst_268CD21D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="416" y="192" name="inst_33F0BE3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="416" y="176" name="inst_9DF288AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="416" y="160" name="inst_D95E12F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="416" y="144" name="inst_2EBA4B09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="160" y="160" name="inst_24F3B8B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="160" y="144" name="inst_6EE66078" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ClimbMe" x="160" y="128" name="inst_3C7BB3E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tiles" x="16" y="208" w="16" h="16" xo="18" yo="52" id="10004493" name="inst_15E21EBC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

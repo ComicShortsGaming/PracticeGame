@@ -12,6 +12,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\Solid</sprite>
+    <sprite>sprites\Climbable</sprite>
     <sprite>sprites\Reading</sprite>
     <sprite>sprites\ResetZone</sprite>
     <sprite>sprites\Door</sprite>
@@ -46,6 +47,7 @@
       <sprite>sprites\GoblinFall_Right</sprite>
       <sprite>sprites\GoblinFall_Left</sprite>
     </sprites>
+    <sprite>sprites\Spikes</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tiles</background>
@@ -74,6 +76,8 @@
     <object>objects\TestMarker</object>
     <object>objects\Death</object>
     <object>objects\ReadMe</object>
+    <object>objects\ClimbMe</object>
+    <object>objects\Spikes_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test1</room>
