@@ -4,10 +4,12 @@ argument2 = .8  //Gravity exerted on the player. Higher number, shorter jump
 argument3 = 12  //Fall Speed
 argument4 = 0
 //BREAK//
+
 if (vspeed>argument3)   //If the fall speed exceeds the number set by "argument3" it sets it back to it immediately.
 {
   vspeed=argument3;
 }
+
 //BREAK//
 if (place_free(x,y+1))                          //Checks if the player is colliding with a solid object by determining whether there is free space directly below the sprite.
 {
@@ -78,9 +80,17 @@ if (keyboard_check(vk_left) && place_free(x-argument0,y) && place_free(x-argumen
 
 //BREAK//                                                                   //Experimenting with ladder climbing.
 
-if collision_point(x,y, ClimbMe, false, false) && keyboard_check(vk_up)
+if collision_point(x,y, ClimbMe, false, false)  
+
 {
-    motion_set(270,-10)                                                             //So far, this KIND of works, but it acts more like a ladder-length jump than actual climbing.
+    
+    
+    if keyboard_check(vk_up)
+    {
+        vspeed = 0;
+        argument2 = 0;
+        y-=argument0;                                                     
+    }
 }
 
 

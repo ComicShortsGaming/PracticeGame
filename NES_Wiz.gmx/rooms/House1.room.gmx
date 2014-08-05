@@ -78,7 +78,7 @@
     <instance objName="SolidBox" x="48" y="80" name="inst_D508484E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="32" y="80" name="inst_52F5A913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="SolidBox" x="16" y="80" name="inst_CD73944F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Doorway" x="64" y="64" name="inst_F691CCF2" locked="0" code="target_x = 400;&#xA;target_y = 192;&#xA;target_r = Test1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Doorway" x="64" y="64" name="inst_F691CCF2" locked="0" code="target_x = 608;&#xA;target_y = 192;&#xA;target_r = Test1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tiles" x="0" y="0" w="16" h="16" xo="120" yo="35" id="10010763" name="inst_F3B3F2A4" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
