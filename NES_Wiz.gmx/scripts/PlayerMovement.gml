@@ -3,6 +3,7 @@ argument1 = 270  //Gravity direction angle. 270 is straight down, 90 straight up
 argument2 = .8  //Gravity exerted on the player. Higher number, shorter jump
 argument3 = 12  //Fall Speed
 argument4 = 0
+var_climbing = 0;
 //BREAK//
 
 if (vspeed>argument3)   //If the fall speed exceeds the number set by "argument3" it sets it back to it immediately.
@@ -83,16 +84,32 @@ if (keyboard_check(vk_left) && place_free(x-argument0,y) && place_free(x-argumen
 if collision_point(x,y, ClimbMe, false, false)  
 
 {
-    
-    
     if keyboard_check(vk_up)
     {
-        vspeed = 0;
-        argument2 = 0;
+        var_climbing = 1;
+        //argument2 = 0;
+        //vspeed = 0;
         y-=argument0;                                                     
+    }
+    else if keyboard_check(vk_down)
+    {
+        var_climbing = 1;
+        //argument2 = 0;
+        //vspeed = 0;
+        y+=argument0;
+    }
+    else
+    {
+        argument2 = 0;
+        vspeed = 0;
     }
 }
 
+if var_climbing = 1
+{
+    argument2 = 0;
+    vspeed = 0;
+}
 
 
 

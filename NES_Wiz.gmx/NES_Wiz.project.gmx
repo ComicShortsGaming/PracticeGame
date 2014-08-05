@@ -85,6 +85,10 @@
     <room>rooms\House1</room>
     <room>rooms\Castle1</room>
   </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">41856.1243412384</constant>
+    <constant name="GM_version">'1.0.0.2'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
