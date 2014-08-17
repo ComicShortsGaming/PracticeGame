@@ -1,9 +1,11 @@
 argument0 = 2  //Walk Speed. Higher number, faster movement.
 argument1 = 270  //Gravity direction angle. 270 is straight down, 90 straight up.
-argument2 = .8  //Gravity exerted on the player. Higher number, shorter jump
 argument3 = 12  //Fall Speed
 argument4 = 0
 var_climbing = 0;
+
+//argument2 = .8  //Gravity exerted on the player. Higher number, shorter jump
+
 //BREAK//
 
 if (vspeed>argument3)   //If the fall speed exceeds the number set by "argument3" it sets it back to it immediately.
@@ -26,6 +28,7 @@ if (place_free(x,y+1))                          //Checks if the player is collid
     {
         global.Jumped=0;
     }
+argument2 = .8
 gravity_direction=argument1;                //Sets direction and strength of gravity to pull player down if not colliding.
 gravity=argument2;
 
@@ -87,27 +90,19 @@ if collision_point(x,y, ClimbMe, false, false)
     if keyboard_check(vk_up)
     {
         var_climbing = 1;
-        //argument2 = 0;
-        //vspeed = 0;
-        y-=argument0;                                                     
+        gravity = 0;
+        y-=2;                                                     
     }
     else if keyboard_check(vk_down)
     {
         var_climbing = 1;
-        //argument2 = 0;
-        //vspeed = 0;
-        y+=argument0;
-    }
-    else
-    {
-        argument2 = 0;
-        vspeed = 0;
+        gravity = 0;
+        y+=2;
     }
 }
 
 if var_climbing = 1
 {
-    argument2 = 0;
     vspeed = 0;
 }
 
@@ -169,4 +164,3 @@ if keyboard_check(vk_left) && keyboard_check(vk_right)
         }
 }
 //BREAK//                                                               
-
