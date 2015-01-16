@@ -16,6 +16,7 @@
     <sprite>sprites\Reading</sprite>
     <sprite>sprites\ResetZone</sprite>
     <sprite>sprites\Door</sprite>
+    <sprite>sprites\Checkpoint</sprite>
     <sprites name="Wizard">
       <sprite>sprites\WizRight</sprite>
       <sprite>sprites\WizLeft</sprite>
@@ -51,6 +52,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Tiles</background>
+    <background>background\Castle_BG</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -77,12 +79,14 @@
     <object>objects\ReadMe</object>
     <object>objects\ClimbMe</object>
     <object>objects\Spikes_obj</object>
+    <object>objects\checkpoint_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test1</room>
     <room>rooms\Cave1</room>
     <room>rooms\House1</room>
     <room>rooms\Castle1</room>
+    <room>rooms\Castle2</room>
   </rooms>
   <constants number="2">
     <constant name="GM_build_date">41868.3406755324</constant>
