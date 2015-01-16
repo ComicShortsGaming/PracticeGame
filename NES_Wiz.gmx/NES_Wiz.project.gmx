@@ -54,8 +54,7 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\PlayerMovement.gml</script>
-    <script>scripts\PlayerHP.gml</script>
+    <script>scripts\Player.gml</script>
     <script>scripts\Goblin_AI.gml</script>
   </scripts>
   <fonts name="fonts">

@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>global.BulletCount = 0
 global.Jumped = 0
+health = 5
+
 
 </string>
           </argument>
@@ -87,7 +89,7 @@ global.Jumped = 0
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>PlayerMovement</script>
+            <script>Player</script>
           </argument>
           <argument>
             <kind>0</kind>
@@ -132,6 +134,7 @@ global.Jumped = 0
             <string>    Wiz.x = other.target_x;
     Wiz.y = other.target_y;
     audio_play_sound(sound_door,1,false)
+    health = health -1;
 </string>
           </argument>
         </arguments>

@@ -37,4 +37,3 @@ else                                                //If the NPC IS colliding, t
         gravity_direction=argument1;                     //Still sets the direction as "down" but zeroes out the gravity.
         gravity=0;
 }
-
