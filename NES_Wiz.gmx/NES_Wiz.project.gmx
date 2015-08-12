@@ -49,6 +49,7 @@
       <sprite>sprites\GoblinFall_Left</sprite>
     </sprites>
     <sprite>sprites\Spikes</sprite>
+    <sprite>sprites\DebugButtons</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tiles</background>
@@ -80,6 +81,14 @@
     <object>objects\ClimbMe</object>
     <object>objects\Spikes_obj</object>
     <object>objects\checkpoint_obj</object>
+    <objects name="DebugButtons">
+      <object>objects\DebugUp</object>
+      <object>objects\DebugDown</object>
+      <object>objects\DebugLeft</object>
+      <object>objects\DebugRight</object>
+      <object>objects\DebugJump</object>
+      <object>objects\DebugShoot</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Test1</room>

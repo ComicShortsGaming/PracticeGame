@@ -88,24 +88,26 @@ if (keyboard_check(vk_left) && place_free(x-argument0,y) && place_free(x-argumen
 if collision_point(x,y, ClimbMe, false, false)  
 
 {
-    if keyboard_check(vk_up)
+    if keyboard_check(vk_up)                                                //If player pressed UP while standing on a climbable tile, they go up.
     {
         var_climbing = 1;
         gravity = 0;
         y-=2;                                                     
     }
-    else if keyboard_check(vk_down)
+    else if keyboard_check(vk_down)                                         //If player presses DOWN, they go down.
     {
         var_climbing = 1;
         gravity = 0;
         y+=2;
     }
+    
+    if keyboard_check_released(vk_down) && keyboard_check_released(vk_up)           //TRYING to hold player in place while neither pressing UP or DOWN. 
+    {   
+        gravity = 0;
+        vspeed = 0;
+    }
 }
 
-if var_climbing = 1
-{
-    vspeed = 0;
-}
 
 
 
