@@ -1,0 +1,3 @@
+We're not working on the practice game anymore. It's too buggy and hard to figure out the code, so we're scrapping it.
+
+I just put this txt in to force GitHub to update.
