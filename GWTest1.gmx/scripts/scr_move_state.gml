@@ -92,4 +92,3 @@ if (place_meeting(x,y+vsp,obj_spikes))
     }
     room_restart();
 }
-
