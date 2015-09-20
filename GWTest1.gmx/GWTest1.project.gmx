@@ -18,15 +18,15 @@
     <sprite>sprites\Spikes</sprite>
     <sprite>sprites\Terrain</sprite>
     <sprite>sprites\WizFall_Left</sprite>
-    <sprite>sprites\WizFall_Right</sprite>
+    <sprite>sprites\WizFall</sprite>
     <sprite>sprites\WizJump_Left</sprite>
-    <sprite>sprites\WizJump_Right</sprite>
+    <sprite>sprites\WizJump</sprite>
     <sprite>sprites\WizLeft</sprite>
     <sprite>sprites\WizRight</sprite>
     <sprite>sprites\WizShoot_Left</sprite>
-    <sprite>sprites\WizShoot_Right</sprite>
+    <sprite>sprites\WizShoot</sprite>
     <sprite>sprites\WizWalk_Left</sprite>
-    <sprite>sprites\WizWalk_Right</sprite>
+    <sprite>sprites\WizWalk</sprite>
     <sprite>sprites\WoodPlat_Left</sprite>
     <sprite>sprites\WoodPlat_Mid</sprite>
     <sprite>sprites\WoodPlat_Right</sprite>
@@ -55,6 +55,10 @@
     <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_move_state.gml</script>
+    <script>scripts\scr_ledgegrab_state.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_Wiz</object>
     <object>objects\obj_grass</object>
@@ -64,6 +68,9 @@
     <object>objects\obj_grass_right</object>
     <object>objects\obj_grass_left</object>
     <object>objects\obj_spikes</object>
+    <object>objects\obj_ladder</object>
+    <object>objects\par_wall</object>
+    <object>objects\par_ladder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl1_start</room>

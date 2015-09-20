@@ -31,6 +31,8 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 5;
 movespeed = 2;
+ladder = false;
+state = scr_move_state;
 </string>
           </argument>
         </arguments>
@@ -53,131 +55,7 @@ movespeed = 2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Inputs
-
-//Player Input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_up);
-
-//React to Input
-move = key_left + key_right;
-hsp = move * movespeed;
-if (vsp &lt; 10) vsp += grav;
-
-if (place_meeting(x,y+1,obj_grass))
-{
-    vsp = key_jump * -jumpspeed
-}
-
-//Horizontal Collision
-
-if (place_meeting(x+hsp,y,obj_grass))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_grass))
-    {
-        x += sign(hsp);
-    }
-    hsp = 0;
-}
-
-if (place_meeting(x+hsp,y,obj_dirt))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_dirt))
-    {
-        x += sign(hsp);
-    }
-    hsp = 0;
-}
-
-if (place_meeting(x+hsp,y,obj_grass_left))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_grass_left))
-    {
-        x += sign(hsp);
-    }
-    hsp = 0;
-}
-
-if (place_meeting(x+hsp,y,obj_grass_right))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_grass_right))
-    {
-        x += sign(hsp);
-    }
-    hsp = 0;
-}
-
-if (place_meeting(x+hsp,y,obj_grass_left_corner))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_grass_left_corner))
-    {
-        x += sign(hsp);
-    }
-    hsp = 0;
-}
-
-if (place_meeting(x+hsp,y,obj_grass_right_corner))
-{
-    while(!place_meeting(x+sign(hsp),y,obj_grass_right_corner))
-    {
-        x += sign(hsp);
-    }
-    hsp = 0;
-}
-
-x += hsp;
-
-//Vertical Collision
-
-if (place_meeting(x,y+vsp,obj_grass))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_grass))
-    {
-        y += sign(vsp);
-    }
-    vsp = 0;
-}
-
-if (place_meeting(x,y+vsp,obj_dirt))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_dirt))
-    {
-        y += sign(vsp);
-    }
-    vsp = 0;
-}
-
-if (place_meeting(x,y+vsp,obj_grass_left_corner))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_grass_left_corner))
-    {
-        y += sign(vsp);
-    }
-    vsp = 0;
-}
-
-if (place_meeting(x,y+vsp,obj_grass_right_corner))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_grass_right_corner))
-    {
-        y += sign(vsp);
-    }
-    vsp = 0;
-}
-
-y += vsp;
-
-
-if (place_meeting(x,y+vsp,obj_spikes))
-{
-    while(!place_meeting(x,y+sign(vsp),obj_spikes))
-    {
-        y += sign(vsp);
-    }
-    room_restart();
-}
-
+            <string>script_execute(state);
 </string>
           </argument>
         </arguments>
