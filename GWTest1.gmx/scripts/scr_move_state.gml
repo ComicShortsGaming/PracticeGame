@@ -6,6 +6,7 @@ key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
 key_up = keyboard_check(vk_up);
 key_down = keyboard_check(vk_down);
+key_reset = keyboard_check_pressed(vk_shift);
 
 //React to Input
 move = key_left + key_right;
@@ -38,8 +39,8 @@ if (ladder)
 {
     vsp = 0;
     //hsp = 0;
-    if (key_up) vsp = -2;
-    if (key_down) vsp = 2;
+    if (key_up) vsp = -4;
+    if (key_down) vsp = 4;
     if !place_meeting(x,y,par_ladder) ladder = false;
     if (key_jump) ladder = false;
 }
@@ -93,11 +94,18 @@ if (was_free && is_not_free && moving_down) {
 }
 
 //Simple Spike Death
-if (place_meeting(x,y+vsp,obj_spikes))
+if (place_meeting(x,y+vsp,par_death))
 {
-    while(!place_meeting(x,y+sign(vsp),obj_spikes))
+    while(!place_meeting(x,y+sign(vsp),par_death))
     {
         y += sign(vsp);
     }
+    room_restart();
+}
+
+//Shift Reset
+
+if (key_reset)
+{
     room_restart();
 }

@@ -73,6 +73,8 @@
     <object>objects\par_ladder</object>
     <object>objects\Obj_NegaWiz</object>
     <object>objects\Obj_Platform</object>
+    <object>objects\par_death</object>
+    <object>objects\obj_invisideath</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl1_start</room>
