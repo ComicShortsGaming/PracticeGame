@@ -15,6 +15,15 @@ if (vsp < 10) vsp += grav;
 if (place_meeting(x,y+1,par_wall))
 {
     vsp = key_jump * -jumpspeed
+    var_jumping = 1
+}
+if (keyboard_check_released(vk_space) = true)
+{
+    if (place_meeting(x,y+1,par_wall) = false)
+    {
+        var_jumping = 0
+        vsp += grav
+    }
 }
 
 var moving_right = sign(hsp);

@@ -71,10 +71,16 @@
     <object>objects\obj_ladder</object>
     <object>objects\par_wall</object>
     <object>objects\par_ladder</object>
+    <object>objects\Obj_NegaWiz</object>
+    <object>objects\Obj_Platform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl1_start</room>
   </rooms>
+  <constants number="2">
+    <constant name="GM_build_date">42268.0314818866</constant>
+    <constant name="GM_version">'1.0.0.0'</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
