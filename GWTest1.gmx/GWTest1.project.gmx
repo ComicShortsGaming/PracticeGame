@@ -47,6 +47,12 @@
     <sprite>sprites\spr_grass_right_corner</sprite>
     <sprite>sprites\spr_grass_left</sprite>
     <sprite>sprites\spr_grass_right</sprite>
+    <sprite>sprites\ammoempty</sprite>
+    <sprite>sprites\ammofire</sprite>
+    <sprite>sprites\ammolightning</sprite>
+    <sprite>sprites\ammoquestion</sprite>
+    <sprite>sprites\chest</sprite>
+    <sprite>sprites\healthmana</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sky</background>
@@ -58,7 +64,11 @@
   <scripts name="scripts">
     <script>scripts\scr_move_state.gml</script>
     <script>scripts\scr_ledgegrab_state.gml</script>
+    <script>scripts\scr_newmove_code.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\testfont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Wiz</object>
     <object>objects\obj_grass</object>
@@ -75,6 +85,7 @@
     <object>objects\Obj_Platform</object>
     <object>objects\par_death</object>
     <object>objects\obj_invisideath</object>
+    <object>objects\obj_HUD</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl1_start</room>
